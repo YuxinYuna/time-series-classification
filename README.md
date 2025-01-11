@@ -3,7 +3,11 @@
 This project utilizes the [Belgium OBU Dataset](https://www.kaggle.com/datasets/giobbu/belgium-obu/data) to explore, preprocess, and model the data for time-series predictions. It includes a comparative analysis of different neural network architectures, such as LSTM and LSTM-FCN, and evaluates the impact of using an extended feature set.
 
 ---
-## **Datasets**
+
+## **Dataset**
+- **Source**: [Belgium OBU Dataset](https://www.kaggle.com/datasets/giobbu/belgium-obu/data)
+- **Description**: The dataset contains observational data collected from onboard units (OBUs) in vehicles. It includes features suitable for time-series analysis.
+
 The following datasets were used in this project:
 
 1. **And_05min_0101_0103_2019.csv** (111.12 MB)  
@@ -11,11 +15,12 @@ The following datasets were used in this project:
 3. **Bel_30min_1303_0606_2021.csv** (332.88 MB)  
 4. **Bel_30min_0506_1610_2021.csv** (635.36 MB)
 
-Due to size constraints, these datasets are not included in this repository. You can download them directly from the Kaggle dataset linked below:
+You can download them directly from the Kaggle dataset linked below:
 
-- [Belgium OBU Dataset on Kaggle](https://www.kaggle.com/datasets/giobbu/belgium-obu/data)
+[Belgium OBU Dataset on Kaggle](https://www.kaggle.com/datasets/giobbu/belgium-obu/data)
 
 ---
+
 ## **Project Structure**
 The project is organized into the following Jupyter notebooks:
 
@@ -53,12 +58,6 @@ The project is organized into the following Jupyter notebooks:
      - 4 features (from the Kaggle reference notebook).
      - 9 features (engineered in this project).
    - Visualizes the impact of feature expansion on prediction accuracy and other performance metrics.
-
----
-
-## **Dataset**
-- **Source**: [Belgium OBU Dataset](https://www.kaggle.com/datasets/giobbu/belgium-obu/data)
-- **Description**: The dataset contains observational data collected from onboard units (OBUs) in vehicles. It includes features suitable for time-series analysis.
 
 ---
 
